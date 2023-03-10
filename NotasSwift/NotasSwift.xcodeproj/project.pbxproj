@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8235F64C29BBDA7600113259 /* ManagedNota+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */; };
+		8235F64D29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */; };
 		82AFD2FB29BA59FE00DFF7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */; };
 		82AFD2FD29BA59FE00DFF7EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FC29BA59FE00DFF7EE /* SceneDelegate.swift */; };
 		82AFD2FF29BA59FE00DFF7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FE29BA59FE00DFF7EE /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedNota+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedNota+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		82AFD2F729BA59FE00DFF7EE /* NotasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AFD2FC29BA59FE00DFF7EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		82AFD2F929BA59FE00DFF7EE /* NotasSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */,
+				8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */,
 				82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */,
 				82AFD2FC29BA59FE00DFF7EE /* SceneDelegate.swift */,
 				82AFD2FE29BA59FE00DFF7EE /* ViewController.swift */,
@@ -155,6 +161,8 @@
 				82AFD30529BA59FE00DFF7EE /* NotasSwift.xcdatamodeld in Sources */,
 				82AFD2FB29BA59FE00DFF7EE /* AppDelegate.swift in Sources */,
 				82AFD31429BA5C4700DFF7EE /* RegisterNotaViewController.swift in Sources */,
+				8235F64C29BBDA7600113259 /* ManagedNota+CoreDataClass.swift in Sources */,
+				8235F64D29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift in Sources */,
 				82AFD31629BA635300DFF7EE /* NotaCollectionViewCell.swift in Sources */,
 				82AFD2FD29BA59FE00DFF7EE /* SceneDelegate.swift in Sources */,
 			);
