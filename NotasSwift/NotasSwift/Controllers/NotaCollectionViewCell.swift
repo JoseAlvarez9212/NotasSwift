@@ -22,6 +22,9 @@ class NotaCollectionViewCell: UICollectionViewCell {
         let dateFormat = DateFormatter()
         dateFormat.dateFormat = "dd/MM/YY"
         dateLabel.text = dateFormat.string(from: date)
+        
+        dateLabel.font = UIFont.systemFont(ofSize: 9.0)
+        messageLabel.font = UIFont.systemFont(ofSize: 11.0)
     }
     
 }

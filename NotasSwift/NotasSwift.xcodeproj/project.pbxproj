@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820EC5DE29BE4F7400BC4055 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EC5DD29BE4F7400BC4055 /* LaunchScreenViewController.swift */; };
+		820EC5E029BE585500BC4055 /* ic_notas_launchscreem.json in Resources */ = {isa = PBXBuildFile; fileRef = 820EC5DF29BE585500BC4055 /* ic_notas_launchscreem.json */; };
 		8235F64C29BBDA7600113259 /* ManagedNota+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */; };
 		8235F64D29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */; };
 		82AFD2FB29BA59FE00DFF7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		56A1B7DDA8C351CCB802FF1C /* Pods_NotasSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotasSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820EC5DD29BE4F7400BC4055 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		820EC5DF29BE585500BC4055 /* ic_notas_launchscreem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ic_notas_launchscreem.json; sourceTree = "<group>"; };
 		8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedNota+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedNota+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		82AFD2F729BA59FE00DFF7EE /* NotasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +85,7 @@
 		82AFD2F929BA59FE00DFF7EE /* NotasSwift */ = {
 			isa = PBXGroup;
 			children = (
+				820EC5DF29BE585500BC4055 /* ic_notas_launchscreem.json */,
 				82EBEA1929BE3795003F2731 /* SupportingFiles */,
 				82EBEA1829BE3141003F2731 /* Controllers */,
 				82EBEA1729BE3136003F2731 /* Providers */,
@@ -117,6 +122,7 @@
 				82AFD31129BA5B9800DFF7EE /* NotasViewController.swift */,
 				82AFD31329BA5C4700DFF7EE /* RegisterNotaViewController.swift */,
 				82AFD31529BA635300DFF7EE /* NotaCollectionViewCell.swift */,
+				820EC5DD29BE4F7400BC4055 /* LaunchScreenViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,7 +141,6 @@
 				EDFC6DC7158681461560AF77 /* Pods-NotasSwift.debug.xcconfig */,
 				BE8F8A0F69C575EDF8E468F9 /* Pods-NotasSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +155,7 @@
 				82AFD2F329BA59FE00DFF7EE /* Sources */,
 				82AFD2F429BA59FE00DFF7EE /* Frameworks */,
 				82AFD2F529BA59FE00DFF7EE /* Resources */,
+				D73F9E5D90FEC8D7B7141ECD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +207,7 @@
 				82AFD30A29BA5A0000DFF7EE /* LaunchScreen.storyboard in Resources */,
 				82AFD30729BA5A0000DFF7EE /* Assets.xcassets in Resources */,
 				82AFD30229BA59FE00DFF7EE /* Main.storyboard in Resources */,
+				820EC5E029BE585500BC4055 /* ic_notas_launchscreem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +236,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D73F9E5D90FEC8D7B7141ECD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotasSwift/Pods-NotasSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotasSwift/Pods-NotasSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotasSwift/Pods-NotasSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,6 +267,7 @@
 				8235F64C29BBDA7600113259 /* ManagedNota+CoreDataClass.swift in Sources */,
 				8235F64D29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift in Sources */,
 				82AFD31629BA635300DFF7EE /* NotaCollectionViewCell.swift in Sources */,
+				820EC5DE29BE4F7400BC4055 /* LaunchScreenViewController.swift in Sources */,
 				82AFD2FD29BA59FE00DFF7EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,7 +419,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotasSwift/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -423,7 +448,7 @@
 				INFOPLIST_FILE = NotasSwift/SupportingFiles/Info.plist;
 				"INFOPLIST_FILE[sdk=*]" = NotasSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
