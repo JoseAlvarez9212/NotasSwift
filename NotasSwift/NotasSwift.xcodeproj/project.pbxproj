@@ -11,7 +11,6 @@
 		8235F64D29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */; };
 		82AFD2FB29BA59FE00DFF7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */; };
 		82AFD2FD29BA59FE00DFF7EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FC29BA59FE00DFF7EE /* SceneDelegate.swift */; };
-		82AFD2FF29BA59FE00DFF7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD2FE29BA59FE00DFF7EE /* ViewController.swift */; };
 		82AFD30229BA59FE00DFF7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AFD30029BA59FE00DFF7EE /* Main.storyboard */; };
 		82AFD30529BA59FE00DFF7EE /* NotasSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82AFD30329BA59FE00DFF7EE /* NotasSwift.xcdatamodeld */; };
 		82AFD30729BA5A0000DFF7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AFD30629BA5A0000DFF7EE /* Assets.xcassets */; };
@@ -27,7 +26,6 @@
 		82AFD2F729BA59FE00DFF7EE /* NotasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AFD2FC29BA59FE00DFF7EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82AFD2FE29BA59FE00DFF7EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82AFD30129BA59FE00DFF7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82AFD30429BA59FE00DFF7EE /* NotasSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotasSwift.xcdatamodel; sourceTree = "<group>"; };
 		82AFD30629BA5A0000DFF7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,21 +66,52 @@
 		82AFD2F929BA59FE00DFF7EE /* NotasSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */,
-				8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */,
+				82EBEA1929BE3795003F2731 /* SupportingFiles */,
+				82EBEA1829BE3141003F2731 /* Controllers */,
+				82EBEA1729BE3136003F2731 /* Providers */,
+				82EBEA1629BE312B003F2731 /* Views */,
 				82AFD2FA29BA59FE00DFF7EE /* AppDelegate.swift */,
 				82AFD2FC29BA59FE00DFF7EE /* SceneDelegate.swift */,
-				82AFD2FE29BA59FE00DFF7EE /* ViewController.swift */,
-				82AFD30029BA59FE00DFF7EE /* Main.storyboard */,
 				82AFD30629BA5A0000DFF7EE /* Assets.xcassets */,
+			);
+			path = NotasSwift;
+			sourceTree = "<group>";
+		};
+		82EBEA1629BE312B003F2731 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82AFD30029BA59FE00DFF7EE /* Main.storyboard */,
 				82AFD30829BA5A0000DFF7EE /* LaunchScreen.storyboard */,
-				82AFD30B29BA5A0000DFF7EE /* Info.plist */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EBEA1729BE3136003F2731 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				8235F64A29BBDA7600113259 /* ManagedNota+CoreDataClass.swift */,
+				8235F64B29BBDA7600113259 /* ManagedNota+CoreDataProperties.swift */,
 				82AFD30329BA59FE00DFF7EE /* NotasSwift.xcdatamodeld */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		82EBEA1829BE3141003F2731 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				82AFD31129BA5B9800DFF7EE /* NotasViewController.swift */,
 				82AFD31329BA5C4700DFF7EE /* RegisterNotaViewController.swift */,
 				82AFD31529BA635300DFF7EE /* NotaCollectionViewCell.swift */,
 			);
-			path = NotasSwift;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		82EBEA1929BE3795003F2731 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				82AFD30B29BA5A0000DFF7EE /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AFD31229BA5B9800DFF7EE /* NotasViewController.swift in Sources */,
-				82AFD2FF29BA59FE00DFF7EE /* ViewController.swift in Sources */,
 				82AFD30529BA59FE00DFF7EE /* NotasSwift.xcdatamodeld in Sources */,
 				82AFD2FB29BA59FE00DFF7EE /* AppDelegate.swift in Sources */,
 				82AFD31429BA5C4700DFF7EE /* RegisterNotaViewController.swift in Sources */,
@@ -312,7 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotasSwift/Info.plist;
+				INFOPLIST_FILE = NotasSwift/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +367,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotasSwift/Info.plist;
+				INFOPLIST_FILE = NotasSwift/SupportingFiles/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = NotasSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
