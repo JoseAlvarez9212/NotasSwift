@@ -1,0 +1,6 @@
+framework module Pods_NotasSwift {
+  umbrella header "Pods-NotasSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
